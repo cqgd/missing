@@ -6,7 +6,7 @@ library(bigsnpr)
 ######################
 bgen_path = "~/ukbb/v3/imputation/ukb_imp_chr22_v3.bgen"
 bgi_dir = "~/ukbb/v3/imputation/"
-bk_file = paste0("~/ukb_hm_in_icbp_groups_chr22")
+bk_file = "~/ukb_hm_in_icbp_groups_chr22"
 
 snp_list_path = "~/ukb_hm_snps_in_sumstats_chr22.csv"
 individuals_path = "~/group_eids_index_shared.csv"
