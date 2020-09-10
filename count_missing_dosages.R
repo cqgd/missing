@@ -9,7 +9,8 @@ bgi_dir = "~/ukbb/v3/imputation/"
 bk_file = "~/ukb_hm_in_icbp_groups_chr22"
 
 snp_list_path = "~/ukb_hm_snps_in_sumstats_chr22.csv"
-individuals_path = "~/group_eids_index_shared.csv"
+#individuals_path = "~/group_eids_index_shared.csv" #based on .fam, contains indices outside the range of the .sample, leads to incomplete data
+individuals_path = "~/group_eids_index_shared_from_sample.csv" #based on .sample, better!
 
 ######################
 #Individuals and SNPs
